@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 
 font_cache=dict()
 yyyymm=None
+VPPR=None
 def get_font(font_face,font_size):
   global font_cache
   font_path = f"{VPPR}/Fonts/{font_face}.ttf"
