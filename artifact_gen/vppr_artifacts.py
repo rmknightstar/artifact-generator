@@ -1,5 +1,6 @@
 from . import artifact_utils as au
 import json
+from IPython.display import display_markdown, display_html
 
 def generate_artifacts(year, month, vppr_root, ig_template, artifact_list=["evite", "linkedin", "IG1","IG2"] ):
  #TODO: Fix indentation
