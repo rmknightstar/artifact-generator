@@ -1,4 +1,4 @@
-import artifact_utils as au
+from . import artifact_utils as au
 import json
 
 def generate_artifacts(year, month, vppr_root, ig_template, artifact_list=["evite", "linkedin", "IG1","IG2"] ):
